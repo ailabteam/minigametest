@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="https://minigametest.herokuapp.com" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minigame</title>
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src = "./process.js"></script>
+    <script src="./scripts/web3.js"></script>
+    <style>
+        #frmDangKy, #danhsach{background-color: antiquewhite; padding: 10px;margin-bottom: 10px;}
+        #tbDS{width: 90%;}
+        #dong1 td .row {text-align: center; padding: 4px; border-bottom: solid 1px cornflowerblue;}
+    </style>
+</head>
+<body>
+    <h2>Minigame</h2>
+    <button id="connectMM"> Connect Metamask</button>
+    <div id = "frmDangKy">
+        <input id = "txtHoten" type="text" placeholder="Họ tên" />
+        <input id = "txtEmail" type="text" placeholder="Email" />
+        <input id = "txtSoDT" type="text" placeholder="Số điện thoại" />
+        <button id="btnDangKy"> Đăng ký </button>
+    </div>
+    <div id="danhsach">
+        <table id="tbDS">
+            <tr id="dong1">
+                <td>Address</td>
+                <td>_ID</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
